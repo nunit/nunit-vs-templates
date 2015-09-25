@@ -2,11 +2,14 @@
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
   <Metadata>
     <Identity Id="nunit.templates.Rob Prouse.b29e95b8-bf26-4f03-983d-f1d0f21ad6ef" Version="1.0" Language="en-US" Publisher="Rob Prouse" />
-    <DisplayName>nunit.templates</DisplayName>
-    <Description>Empty VSIX Project.</Description>
+    <DisplayName>NUnit Templates for Visual Studio</DisplayName>
+    <Description xml:space="preserve">Provides Visual Studio project and item templates for NUnit 3 along with code snippets.</Description>
+    <MoreInfo>http://nunit.org</MoreInfo>
+    <License>license.rtf</License>
+    <Icon>nunit3_32x32.png</Icon>
   </Metadata>
   <Installation>
-    <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[14.0]" />
+    <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[11.0,14.0]" />
   </Installation>
   <Dependencies>
     <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="[4.5,)" />
