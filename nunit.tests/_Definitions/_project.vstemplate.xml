@@ -11,7 +11,7 @@
     <ProvideDefaultName>true</ProvideDefaultName>
     <LocationField>Enabled</LocationField>
     <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
-    <Icon>sw-file-icon.png</Icon>
+    <Icon>nunit.png</Icon>
     <TemplateID>b0d3ff60-1340-4462-abf6-7d7cc9f175c5</TemplateID>
     <!-- Indicates how many parent folders this item template should appear in -->
     <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
