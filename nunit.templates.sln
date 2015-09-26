@@ -17,6 +17,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "nunit.tests.csharp", "nunit.tests.csharp\nunit.tests.csharp.csproj", "{8EDF4429-251A-416D-BB68-93F227191BCF}"
 EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "nunit.tests.vb", "nunit.tests.vb\nunit.tests.vb.vbproj", "{6B1D4E4F-82C6-4A3F-95C6-EA1EE2C0C3CB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -28,9 +30,9 @@ Global
 		{0660DC45-821A-4763-9818-4D6798A3A253}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0660DC45-821A-4763-9818-4D6798A3A253}.Release|Any CPU.Build.0 = Release|Any CPU
 		{8EDF4429-251A-416D-BB68-93F227191BCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8EDF4429-251A-416D-BB68-93F227191BCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8EDF4429-251A-416D-BB68-93F227191BCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8EDF4429-251A-416D-BB68-93F227191BCF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B1D4E4F-82C6-4A3F-95C6-EA1EE2C0C3CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B1D4E4F-82C6-4A3F-95C6-EA1EE2C0C3CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
