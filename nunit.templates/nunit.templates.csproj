@@ -75,8 +75,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <TemplateReference Include="nunit.tests.csproj">
-      <PathToProject>../nunit.tests/nunit.tests.csproj</PathToProject>
+    <TemplateReference Include="nunit.tests.csharp.csproj">
+      <PathToProject>../nunit.tests.csharp/nunit.tests.csharp.csproj</PathToProject>
     </TemplateReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
