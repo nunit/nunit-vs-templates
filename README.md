@@ -23,3 +23,13 @@ The project currently provides the following templates.
 - NUnit Test Fixture (VB)
 
 ### Code Snippets
+
+## Contributing
+
+Don't see the template you need or your favorite code snippet? All you need
+to do is fork the repository, add it and create a pull request. We love help
+and contributions.
+
+For information on how to add templates and snippets, head over to the
+[SideWaffle Documentation](https://github.com/ligershark/side-waffle/wiki)
+for more information.
