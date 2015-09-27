@@ -15,6 +15,7 @@ The project currently provides the following templates.
 ### Project Templates
 
 - NUnit 3 Unit Test Project (C#)
+- NUnit 3 Unit Test Project (VB)
 
 ### Item Templates
 
