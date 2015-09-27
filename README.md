@@ -19,4 +19,7 @@ The project currently provides the following templates.
 
 ### Item Templates
 
+- NUnit Test Fixture (C#)
+- NUnit Test Fixture (VB)
+
 ### Code Snippets
