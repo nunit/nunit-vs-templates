@@ -12,7 +12,7 @@ Option Strict On
 Option Explicit On
 
 
-Namespace My
+Namespace NUnit.Tests
     
     <Global.System.Runtime.CompilerServices.CompilerGeneratedAttribute(),  _
      Global.System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "14.0.0.0"),  _
@@ -22,7 +22,7 @@ Namespace My
         
         Private Shared defaultInstance As MySettings = CType(Global.System.Configuration.ApplicationSettingsBase.Synchronized(New MySettings()),MySettings)
         
-#Region "My.Settings Auto-Save Functionality"
+#Region "NUnit.Tests.Settings Auto-Save Functionality"
 #If _MyType = "WindowsForms" Then
     Private Shared addedHandler As Boolean
 
@@ -30,8 +30,8 @@ Namespace My
 
     <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(), Global.System.ComponentModel.EditorBrowsableAttribute(Global.System.ComponentModel.EditorBrowsableState.Advanced)> _
     Private Shared Sub AutoSaveSettings(ByVal sender As Global.System.Object, ByVal e As Global.System.EventArgs)
-        If My.Application.SaveMySettingsOnExit Then
-            My.Settings.Save()
+        If NUnit.Tests.Application.SaveMySettingsOnExit Then
+            NUnit.Tests.Settings.Save()
         End If
     End Sub
 #End If
@@ -44,7 +44,7 @@ Namespace My
                If Not addedHandler Then
                     SyncLock addedHandlerLockObject
                         If Not addedHandler Then
-                            AddHandler My.Application.Shutdown, AddressOf AutoSaveSettings
+                            AddHandler NUnit.Tests.Application.Shutdown, AddressOf AutoSaveSettings
                             addedHandler = True
                         End If
                     End SyncLock
@@ -56,17 +56,17 @@ Namespace My
     End Class
 End Namespace
 
-Namespace My
+Namespace NUnit.Tests
     
     <Global.Microsoft.VisualBasic.HideModuleNameAttribute(),  _
      Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
      Global.System.Runtime.CompilerServices.CompilerGeneratedAttribute()>  _
     Friend Module MySettingsProperty
         
-        <Global.System.ComponentModel.Design.HelpKeywordAttribute("My.Settings")>  _
-        Friend ReadOnly Property Settings() As Global.NUnit.Tests.My.MySettings
+        <Global.System.ComponentModel.Design.HelpKeywordAttribute("NUnit.Tests.Settings")>  _
+        Friend ReadOnly Property Settings() As NUnit.Tests.MySettings
             Get
-                Return Global.NUnit.Tests.My.MySettings.Default
+                Return NUnit.Tests.MySettings.Default
             End Get
         End Property
     End Module
