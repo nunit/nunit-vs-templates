@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+      <Title>NUnit Test Method</Title>
+      <Author>Rob Prouse</Author>
+      <Description>Code snippet for a test method</Description>
+      <HelpUrl>
+      </HelpUrl>
+      <Shortcut>ntm</Shortcut>
+    </Header>
+    <Snippet>
+      <Imports>
+        <Import>
+          <Namespace>NUnit.Framework</Namespace>
+        </Import>
+      </Imports>
+      <References>
+        <Reference>
+          <Assembly>nunit.framework.dll</Assembly>
+        </Reference>
+      </References>
+      <Declarations>
+        <Literal Editable="true">
+          <ID>name</ID>
+          <ToolTip>Replace with the name of the test method</ToolTip>
+          <Default>TestMethod</Default>
+          <Function>
+          </Function>
+        </Literal>
+        <Literal Editable="false">
+          <ID>Test</ID>
+          <ToolTip>
+          </ToolTip>
+          <Default>
+          </Default>
+          <Function>SimpleTypeName(global::NUnit.Framework.Test)</Function>
+        </Literal>
+      </Declarations>
+      <Code Language="csharp" Delimiter="$"><![CDATA[      [$Test$]
+      public void $name$()
+      {
+          $end$
+      }]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

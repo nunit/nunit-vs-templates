@@ -1,4 +1,5 @@
 nunit.templates/Properties/template-builder.props   text    eol=lf
 *.vstemplate.xml    text    eol=lf
 *.vstemplate    text    eol=lf
+*.pkgdef        text    eol=lf
 _preprocess.xml	text	eol=lf

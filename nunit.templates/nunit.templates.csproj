@@ -67,6 +67,16 @@
     <None Include="Properties\template-builder.props">
       <SubType>Designer</SubType>
     </None>
+    <Content Include="snippets.pkgdef">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Snippets\CSharp\Test\testclass.snippet">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Snippets\CSharp\Test\testmethod.snippet">
+      <SubType>Designer</SubType>
+    </Content>
     <None Include="source.extension.vsixmanifest">
       <SubType>Designer</SubType>
     </None>

@@ -1,0 +1,5 @@
+﻿// ----------------- Code Snippets -------------------------
+
+// CSharp
+[$RootKey$\Languages\CodeExpansions\CSharp\Paths]
+"NUnit" = "$PackageFolder$\Snippets\CSharp\Test"
