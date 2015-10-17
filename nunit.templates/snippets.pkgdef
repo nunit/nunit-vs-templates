@@ -1,5 +1,17 @@
 ﻿// ----------------- Code Snippets -------------------------
 
-// CSharp
+// C++
+[$RootKey$\Languages\CodeExpansions\C/C++\Paths]
+"NUnit" = "$PackageFolder$\Snippets\C++\Test"
+
+// C#
 [$RootKey$\Languages\CodeExpansions\CSharp\Paths]
 "NUnit" = "$PackageFolder$\Snippets\CSharp\Test"
+
+// Visual Basic
+[$RootKey$\Languages\CodeExpansions\Basic\Paths]
+"NUnit" = "$PackageFolder$\Snippets\VisualBasic\Test"
+
+// XML
+[$RootKey$\Languages\CodeExpansions\XML\Paths]
+"NUnit" = "$PackageFolder$\Snippets\XML\Test"
