@@ -71,10 +71,13 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\CSharp\Test\testclass.snippet">
+    <Content Include="Snippets\CSharp\Test\ntestfixture.snippet">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="Snippets\CSharp\Test\testmethod.snippet">
+    <Content Include="Snippets\CSharp\Test\ntest.snippet">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Snippets\CSharp\Test\ntestcase.snippet">
       <SubType>Designer</SubType>
     </Content>
     <None Include="source.extension.vsixmanifest">

@@ -28,10 +28,11 @@ The project currently provides the following templates.
 
 ### Code Snippets
 
-| Snippet         | Shortcut | Language      |
-|-----------------|----------|---------------|
-| Test Class      | ntc      | C#            |
-| Test Method     | ntm      | C#            |
+| Snippet         | Shortcut     | Language      |
+|-----------------|--------------|---------------|
+| Test Fixture    | ntf          | C#            |
+| Test Method     | ntest        | C#            |
+| Test Case       | ntc          | C#            |
 
 ## Contributing
 

@@ -2,13 +2,15 @@
 <CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
   <CodeSnippet Format="1.0.0">
     <Header>
-      <Title>NUnit Test Class</Title>
-      <Shortcut>ntc</Shortcut>
-      <Description>Code snippet for a test class</Description>
-      <Author>Rob Prouse</Author>
       <SnippetTypes>
         <SnippetType>Expansion</SnippetType>
       </SnippetTypes>
+      <Title>NUnit Test Method</Title>
+      <Author>Rob Prouse</Author>
+      <Description>Code snippet for a test method</Description>
+      <HelpUrl>
+      </HelpUrl>
+      <Shortcut>ntest</Shortcut>
     </Header>
     <Snippet>
       <Imports>
@@ -22,33 +24,26 @@
         </Reference>
       </References>
       <Declarations>
-        <Literal>
-          <ID>cname</ID>
-          <ToolTip>Replace with the name of the test class</ToolTip>
-          <Default>Class</Default>
-        </Literal>
-        <Literal>
-          <ID>tname</ID>
+        <Literal Editable="true">
+          <ID>name</ID>
           <ToolTip>Replace with the name of the test method</ToolTip>
           <Default>TestMethod</Default>
-        </Literal>
-        <Literal Editable="false">
-          <ID>TestFixture</ID>
-          <Function>SimpleTypeName(global::NUnit.Framework.TestFixture)</Function>
+          <Function>
+          </Function>
         </Literal>
         <Literal Editable="false">
           <ID>Test</ID>
+          <ToolTip>
+          </ToolTip>
+          <Default>
+          </Default>
           <Function>SimpleTypeName(global::NUnit.Framework.Test)</Function>
         </Literal>
       </Declarations>
-      <Code Language="csharp"><![CDATA[[$TestFixture$]
-      public class $cname$Test
+      <Code Language="csharp" Delimiter="$"><![CDATA[      [$Test$]
+      public void $name$()
       {
-          [$Test$]
-          public void $tname$()
-          {
-              $end$
-          }
+          $end$
       }]]></Code>
     </Snippet>
   </CodeSnippet>
