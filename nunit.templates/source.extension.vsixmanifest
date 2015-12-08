@@ -4,15 +4,18 @@
         <Identity Id="nunit.templates.Rob Prouse.b29e95b8-bf26-4f03-983d-f1d0f21ad6ef" Version="1.0" Language="en-US" Publisher="Rob Prouse" />
         <DisplayName>NUnit Templates for Visual Studio</DisplayName>
         <Description xml:space="preserve">Provides Visual Studio project and item templates for NUnit 3 along with code snippets.</Description>
-        <MoreInfo>http://nunit.org</MoreInfo>
+        <MoreInfo>https://github.com/nunit/nunit.templates</MoreInfo>
         <License>license.rtf</License>
         <Icon>nunit3_32x32.png</Icon>
+        <PreviewImage>preview.png</PreviewImage>
+        <Tags>tdd, test, NUnit, NUnit3, template, snippet</Tags>
     </Metadata>
     <Installation>
-        <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[11.0,14.0]" />
+        <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[12.0,]" />
+        <InstallationTarget Version="[11.0,)" Id="Microsoft.VisualStudio.Pro" />
     </Installation>
     <Dependencies>
-        <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="[4.5,)" />
+        <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="[4.0,)" />
     </Dependencies>
     <Assets>
         <Asset Type="Microsoft.VisualStudio.ItemTemplate" Path="Output\ItemTemplates" />
