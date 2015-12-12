@@ -1,5 +1,7 @@
 # NUnit Visual Studio Templates
 
+[![Build status](https://ci.appveyor.com/api/projects/status/lx7icpyp4g0m0223/branch/master?svg=true)](https://ci.appveyor.com/project/CharliePoole/nunit-templates/branch/master)
+
 An extension that adds Project and Item templates to Visual Studio
 along with Code Snippets to make unit testing with NUnit 3 easier. 
 We currently only plan to add templates for NUnit 3, but will add 
