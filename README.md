@@ -1,5 +1,7 @@
 # NUnit Visual Studio Templates
 
+[![Build status](https://ci.appveyor.com/api/projects/status/lx7icpyp4g0m0223/branch/master?svg=true)](https://ci.appveyor.com/project/CharliePoole/nunit-templates/branch/master)
+
 An extension that adds Project and Item templates to Visual Studio
 along with Code Snippets to make unit testing with NUnit 3 easier. 
 We currently only plan to add templates for NUnit 3, but will add 
@@ -30,9 +32,9 @@ The project currently provides the following templates.
 
 | Snippet         | Shortcut     | Language      |
 |-----------------|--------------|---------------|
-| Test Fixture    | ntf          | C#            |
+| Test Fixture    | ntestfixture | C#            |
 | Test Method     | ntest        | C#            |
-| Test Case       | ntc          | C#            |
+| Test Case       | ntestcase    | C#            |
 
 ## Contributing
 
@@ -41,7 +43,12 @@ to do is fork the repository, add it and create a pull request. We love help
 and contributions.
 
 For information on how to add templates and snippets, head over to the
-[SideWaffle Documentation](https://github.com/ligershark/side-waffle/wiki)
+[SideWaffle Documentation](https://github.com/ligershark/side-waffle/wiki).
+
+There is also a great walkthrough on creating templates in the 
+[June 2015 MSDN Magazine](https://msdn.microsoft.com/en-us/magazine/mt147242.aspx).
+
+### Prerequisites
 
 We highly recommend that you use the following extensions for Visual Studio when
 working on this project.
@@ -57,11 +64,11 @@ the NUnit project defaults in Visual Studio.
 
 ### Adding Project Templates
 
-TBC
+*TBC*
 
 ### Adding Item Templates
 
-TBC
+*TBC*
 
 ### Adding Code Snippets
 
