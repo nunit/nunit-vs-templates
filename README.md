@@ -21,10 +21,14 @@ The project currently provides the following templates.
 
 ### Project Templates
 
-| Template                     | Language     |
-|------------------------------|--------------|
-| NUnit 3 Unit Test Project    | C#           |
-| NUnit 3 Unit Test Project    | Visual Basic |
+| Template                     | Platform        | Language     |
+|------------------------------|-----------------|--------------|
+| NUnit 3 Unit Test Project    | Desktop         | C#           |
+| NUnit 3 Unit Test Project    | Desktop         | Visual Basic |
+| NUnit 3 Unit Test Project    | Xamarin Android | C#           |
+| NUnit 3 Unit Test Project    | Xamarin iOS     | C#           |
+| NUnit 3 Unit Test Project    | Xamarin UWP     | C#           |
+| NUnit 3 Unit Test Project    | Xamarin WP8.1   | C#           |
 
 ### Item Templates
 
@@ -71,7 +75,14 @@ the NUnit project defaults in Visual Studio.
 
 - Add a new project that will serve as your template
 - Modify the project to ensure it builds and produces the correct output
-- 
+- Right click on the nunit.templates project and select Add | Add Template Reference (SideWaffle project).
+- Select your project from the dropdown and add it.
+- Your project will have two new files added, `_Definitions\_project.vstemplate.xml` and `_preprocess.xml`.
+- Edit both of these files using those from other projects as a reference.
+- Remove the file `sw-file-icon.png` from your project.
+- Copy `nunit.png` from `nunit-tests.csharp` into your project directory, but don't add it to your project.
+- Add your project template to README.md
+- Push your branch to GitHub and create a Pull Request
 
 ### Adding Item Templates
 

@@ -103,6 +103,9 @@
     <Content Include="Assets\WideLogo.scale-240.png" />
     <Content Include="MainPage.xaml.cs.txt" />
     <Content Include="MainPage.xaml.txt" />
+    <Content Include="sw-file-icon.png" />
+    <Content Include="_Definitions\_project.vstemplate.xml" />
+    <Content Include="_preprocess.xml" />
   </ItemGroup>
   <ItemGroup>
     <ApplicationDefinition Include="App.xaml">
