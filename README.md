@@ -69,7 +69,9 @@ the NUnit project defaults in Visual Studio.
 
 ### Adding Project Templates
 
-*TBC*
+- Add a new project that will serve as your template
+- Modify the project to ensure it builds and produces the correct output
+- 
 
 ### Adding Item Templates
 
