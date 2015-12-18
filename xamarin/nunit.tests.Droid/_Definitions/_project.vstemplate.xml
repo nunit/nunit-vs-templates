@@ -6,22 +6,18 @@
         <ProjectType>CSharp</ProjectType>
         <ProjectSubType>
         </ProjectSubType>
-        <SortOrder>1000</SortOrder>
+        <SortOrder>100</SortOrder>
         <CreateNewFolder>true</CreateNewFolder>
         <ProvideDefaultName>true</ProvideDefaultName>
         <LocationField>Enabled</LocationField>
         <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
         <Icon>nunit.png</Icon>
-        <TemplateID>484f82d4-ded4-4c6b-aa13-6931652ceaf0</TemplateID>
+        <TemplateID>b335e83c-b1ce-49cd-b8a8-4e9e69aafea7</TemplateID>
         <!-- Indicates how many parent folders this item template should appear in -->
         <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
     </TemplateData>
     <TemplateContent>
         <Project TargetFileName="NUnit.Tests.Droid.csproj" File="NUnit.Tests.Droid.csproj" ReplaceParameters="true">
         </Project>
-        <CustomParameters>
-            <CustomParameter Name="NUnit Project Template Files" Value="Rob Prouse" />
-            <CustomParameter Name="8e0a6fff-7069-4384-9bb3-5e53d6cbb0b3" Value="f292d270-4e1c-416b-9434-1e3a6bb9b7a6" />
-        </CustomParameters>
     </TemplateContent>
 </VSTemplate>

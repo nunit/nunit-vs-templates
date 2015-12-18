@@ -3,10 +3,9 @@
         <Name>NUnit 3 Unit Test Project</Name>
         <Description>A project that contains NUnit 3 unit tests</Description>
         <DefaultName>NUnit.Tests</DefaultName>
-
         <ProjectType>VisualBasic</ProjectType>
         <ProjectSubType></ProjectSubType>
-        <SortOrder>1000</SortOrder>
+        <SortOrder>100</SortOrder>
         <CreateNewFolder>true</CreateNewFolder>
         <ProvideDefaultName>true</ProvideDefaultName>
         <LocationField>Enabled</LocationField>
@@ -19,9 +18,5 @@
     <TemplateContent>
         <Project TargetFileName="NUnit.Tests.vbproj" File="NUnit.Tests.VB.vbproj" ReplaceParameters="true">
         </Project>
-        <CustomParameters>
-            <CustomParameter Name="NUnit Project Template Files" Value="Rob Prouse" />
-            <CustomParameter Name="8e0a6fff-7069-4384-9bb3-5e53d6cbb0b3" Value="f292d270-4e1c-416b-9434-1e3a6bb9b7a6" />
-        </CustomParameters>
     </TemplateContent>
 </VSTemplate>

@@ -75,18 +75,25 @@ the NUnit project defaults in Visual Studio.
 
 - Add a new project that will serve as your template
 - Modify the project to ensure it builds and produces the correct output
-- Right click on the nunit.templates project and select Add | Add Template Reference (SideWaffle project).
+- Right click on the nunit.templates project and select **Add | Add Template Reference (SideWaffle project)**.
 - Select your project from the dropdown and add it.
 - Your project will have two new files added, `_Definitions\_project.vstemplate.xml` and `_preprocess.xml`.
 - Edit both of these files using those from other projects as a reference.
-- Remove the file `sw-file-icon.png` from your project.
-- Copy `nunit.png` from `nunit-tests.csharp` into your project directory, but don't add it to your project.
-- Add your project template to README.md
+- Delete **sw-file-icon.png** from your project.
+- Copy **nunit.png** from **nunit-tests.csharp** into your project directory, but don't add it to your project.
+- If you use NuGet packages in your project, edit the project file to switch the **HintPath** for the references from `..\packages\` to `$(SolutionDir)packages\`
+- Test your project template by compiling and running the project. This will open an experimental
+instance of Visual Studio with the extension installed for testing.
+- Once you are happy with your project, **remove it from all build configurations**.- Add your project template to README.md
 - Push your branch to GitHub and create a Pull Request
 
 ### Adding Item Templates
 
-*TBC*
+- *TBC*
+- Test your item template by compiling and running the project. This will open an experimental
+instance of Visual Studio with the extension installed for testing.
+- Add your item template to README.md
+- Push your branch to GitHub and create a Pull Request
 
 ### Adding Code Snippets
 
