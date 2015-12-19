@@ -10,7 +10,7 @@ before_build:
   - cmd: nuget.exe restore nunit.templates.sln
 
 build:
-  project: nunit.templates.sln
+  project: nunit.templates\nunit.templates.csproj
   verbosity: normal
 
 artifacts:
