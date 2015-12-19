@@ -2,8 +2,7 @@
   <TemplateData>
     <Name>NUnit 3 Unit Test Project</Name>
     <Description>A project that contains NUnit 3 unit tests</Description>
-    <DefaultName>NUnit.Tests</DefaultName>
-    
+    <DefaultName>NUnit.Tests</DefaultName>    
     <ProjectType>CSharp</ProjectType>
     <ProjectSubType></ProjectSubType>
     <SortOrder>1000</SortOrder>
@@ -14,7 +13,7 @@
     <Icon>nunit.png</Icon>
     <TemplateID>b0d3ff60-1340-4462-abf6-7d7cc9f175c5</TemplateID>
     <!-- Indicates how many parent folders this item template should appear in -->
-    <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+    <NumberOfParentCategoriesToRollUp>0</NumberOfParentCategoriesToRollUp>
   </TemplateData>
   <TemplateContent>
     <Project TargetFileName="NUnit.Tests.csproj" File="NUnit.Tests.CSharp.csproj" ReplaceParameters="true">      

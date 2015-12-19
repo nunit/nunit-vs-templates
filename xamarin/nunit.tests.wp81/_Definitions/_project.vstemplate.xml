@@ -1,22 +1,22 @@
 <VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
     <TemplateData>
-        <Name>NUnit 3 Unit Test Project</Name>
-        <Description>A project that contains NUnit 3 unit tests</Description>
-        <DefaultName>NUnit.Tests</DefaultName>
-        <ProjectType>VisualBasic</ProjectType>
+        <Name>NUnit 3 WP81 Test Project</Name>
+        <Description>A project that contains NUnit 3 unit tests for Windows Phone 8.1 using Xamarin</Description>
+        <DefaultName>NUnit.Tests.WP81</DefaultName>
+        <ProjectType>CSharp</ProjectType>
         <ProjectSubType></ProjectSubType>
-        <SortOrder>100</SortOrder>
+        <SortOrder>400</SortOrder>
         <CreateNewFolder>true</CreateNewFolder>
         <ProvideDefaultName>true</ProvideDefaultName>
         <LocationField>Enabled</LocationField>
         <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
         <Icon>nunit.png</Icon>
-        <TemplateID>bfc23f0c-2c7d-431e-8edf-91879df70e72</TemplateID>
+        <TemplateID>ebc99240-dc01-4f77-b202-0f0d424f4f33</TemplateID>
         <!-- Indicates how many parent folders this item template should appear in -->
-        <NumberOfParentCategoriesToRollUp>0</NumberOfParentCategoriesToRollUp>
+        <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
     </TemplateData>
     <TemplateContent>
-        <Project TargetFileName="NUnit.Tests.vbproj" File="NUnit.Tests.VB.vbproj" ReplaceParameters="true">
+        <Project TargetFileName="NUnit.Tests.WP81.csproj" File="NUnit.Tests.WP81.csproj" ReplaceParameters="true">
         </Project>
     </TemplateContent>
 </VSTemplate>
