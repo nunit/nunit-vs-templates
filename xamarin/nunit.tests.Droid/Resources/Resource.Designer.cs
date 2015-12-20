@@ -26,10 +26,6 @@ namespace NUnit.Tests
 		
 		public static void UpdateIdValues()
 		{
-			global::Nunit.Runner.Resource.String.ApplicationName = global::NUnit.Tests.Resource.String.ApplicationName;
-			global::Nunit.Runner.Resource.String.Hello = global::NUnit.Tests.Resource.String.Hello;
-			global::Xamarin.Forms.Platform.Resource.String.ApplicationName = global::NUnit.Tests.Resource.String.ApplicationName;
-			global::Xamarin.Forms.Platform.Resource.String.Hello = global::NUnit.Tests.Resource.String.Hello;
 		}
 		
 		public partial class Attribute
@@ -57,25 +53,6 @@ namespace NUnit.Tests
 			}
 			
 			private Drawable()
-			{
-			}
-		}
-		
-		public partial class String
-		{
-			
-			// aapt resource value: 0x7f030001
-			public const int ApplicationName = 2130903041;
-			
-			// aapt resource value: 0x7f030000
-			public const int Hello = 2130903040;
-			
-			static String()
-			{
-				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
-			}
-			
-			private String()
 			{
 			}
 		}

@@ -23,7 +23,7 @@
 using System.Reflection;
 using System.Runtime.InteropServices;
 
-[assembly: AssemblyTitle("NUnit.Tests.UWP")]
+[assembly: AssemblyTitle("NUnit.Tests")]
 [assembly: AssemblyDescription("NUnit Test Runner for Universal Windows")]
 
 [assembly: AssemblyCompany("NUnit Software")]
