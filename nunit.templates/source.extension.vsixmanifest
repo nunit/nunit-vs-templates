@@ -1,25 +1,26 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
-    <Metadata>
-        <Identity Id="nunit.templates.b29e95b8-bf26-4f03-983d-f1d0f21ad6ef" Version="1.1" Language="en-US" Publisher="Rob Prouse" />
-        <DisplayName>NUnit Templates for Visual Studio</DisplayName>
-        <Description xml:space="preserve">Provides Visual Studio project and item templates for NUnit 3 along with code snippets.</Description>
-        <MoreInfo>https://github.com/nunit/nunit.templates</MoreInfo>
-        <License>license.rtf</License>
-        <Icon>nunit3_32x32.png</Icon>
-        <PreviewImage>preview.png</PreviewImage>
-        <Tags>tdd, test, NUnit, NUnit3, template, snippet</Tags>
-    </Metadata>
-    <Installation>
-        <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[12.0,]" />
-        <InstallationTarget Version="[11.0,)" Id="Microsoft.VisualStudio.Pro" />
-    </Installation>
-    <Dependencies>
-        <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="[4.0,)" />
-    </Dependencies>
-    <Assets>
-        <Asset Type="Microsoft.VisualStudio.ItemTemplate" Path="Output\ItemTemplates" />
-        <Asset Type="Microsoft.VisualStudio.ProjectTemplate" Path="Output\ProjectTemplates" />
-        <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="File" Path="snippets.pkgdef" />
-    </Assets>
+  <Metadata>
+    <Identity Id="nunit.templates.b29e95b8-bf26-4f03-983d-f1d0f21ad6ef" Version="1.1" Language="en-US" Publisher="Rob Prouse" />
+    <DisplayName>NUnit Templates for Visual Studio</DisplayName>
+    <Description xml:space="preserve">Provides Visual Studio project and item templates for NUnit 3 along with code snippets.</Description>
+    <MoreInfo>https://github.com/nunit/nunit.templates</MoreInfo>
+    <License>license.rtf</License>
+    <Icon>nunit3_32x32.png</Icon>
+    <PreviewImage>preview.png</PreviewImage>
+    <Tags>tdd, test, NUnit, NUnit3, template, snippet</Tags>
+  </Metadata>
+  <Installation>
+    <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[12.0,]" />
+    <InstallationTarget Version="[11.0,)" Id="Microsoft.VisualStudio.Pro" />
+  </Installation>
+  <Dependencies>
+    <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="[4.0,)" />
+  </Dependencies>
+  <Assets>
+    <Asset Type="Microsoft.VisualStudio.ItemTemplate" Path="Output\ItemTemplates" />
+    <Asset Type="Microsoft.VisualStudio.ProjectTemplate" Path="Output\ProjectTemplates" />
+    <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="File" Path="snippets.pkgdef" />
+    <Asset Type="NUnit.3.0.1.nupkg" d:Source="File" Path="Packages\nunit.3.0.1.nupkg" d:VsixSubPath="Packages" />
+  </Assets>
 </PackageManifest>

@@ -81,7 +81,7 @@ the NUnit project defaults in Visual Studio.
 - Edit both of these files using those from other projects as a reference.
 - Delete **sw-file-icon.png** from your project.
 - Copy **nunit.png** from **nunit-tests.csharp** into your project directory, but don't add it to your project.
-- If you use NuGet packages in your project, edit the project file to switch the **HintPath** for the references from `..\packages\` to `$(SolutionDir)packages\`
+- If you use NuGet packages in your project, remove packages.config and edit the project file to remove all of your NuGet references. You then add them to your vstemplate file. See the [NuGet docs](http://docs.nuget.org/Create/Packages-in-Visual-Studio-Templates) for more information.
 - Test your project template by compiling and running the project. This will open an experimental
 instance of Visual Studio with the extension installed for testing.
 - Once you are happy with your project, **remove it from all build configurations**.- Add your project template to README.md

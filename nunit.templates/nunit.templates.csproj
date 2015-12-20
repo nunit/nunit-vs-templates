@@ -64,6 +64,9 @@
       <SubType>Designer</SubType>
     </Content>
     <None Include="packages.config" />
+    <Content Include="Packages\nunit.3.0.1.nupkg">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
     <None Include="Properties\template-builder.props">
       <SubType>Designer</SubType>
     </None>
