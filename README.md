@@ -35,12 +35,12 @@ The project currently provides the following templates.
 
 ### Item Templates
 
-| Template             | Language      |
-|----------------------|---------------|
-| NUnit Test Fixture   | C#            |
-| NUnit Test Fixture   | Visual Basic  |
-| NUnit SetUp Fixture  | C#            |
-| NUnit SetUp Fixture  | Visual Basic  |
+| Template             | Language      | Description |
+|----------------------|---------------|-------------|
+| NUnit Test Fixture   | C#            | An NUnit unit test class |
+| NUnit Test Fixture   | Visual Basic  | An NUnit unit test class |
+| NUnit SetUp Fixture  | C#            | Code that runs before and after all the tests in the assembly |
+| NUnit SetUp Fixture  | Visual Basic  | Code that runs before and after all the tests in the assembly |
 
 ### Code Snippets
 
