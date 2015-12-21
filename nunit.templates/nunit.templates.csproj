@@ -47,7 +47,10 @@
     <TemplateBuilderTargets Condition=" '$(TemplateBuilderTargets)'=='' ">$([System.IO.Path]::GetFullPath( $(MSBuildProjectDirectory)\..\packages\TemplateBuilder.1.1.3\tools\ligershark.templates.targets ))</TemplateBuilderTargets>
   </PropertyGroup>
   <ItemGroup>
+    <Content Include="ItemTemplates\Test\NUnit Setup Fixture\icon.png" />
+    <Content Include="ItemTemplates\Test\NUnit Setup Fixture\SetupFixture.vb" />
     <Content Include="ItemTemplates\Test\NUnit Test Fixture\TestClass.cs" />
+    <Content Include="ItemTemplates\Test\NUnit Setup Fixture\SetupFixture.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -63,6 +66,8 @@
     <Content Include="ItemTemplates\Test\NUnit Test Fixture\Definitions\VB.vstemplate">
       <SubType>Designer</SubType>
     </Content>
+    <Content Include="ItemTemplates\Test\NUnit Setup Fixture\Definitions\CSharp.vstemplate" />
+    <Content Include="ItemTemplates\Test\NUnit Setup Fixture\Definitions\VB.vstemplate" />
     <None Include="packages.config" />
     <Content Include="Packages\nunit.3.0.1.nupkg">
       <IncludeInVSIX>true</IncludeInVSIX>
