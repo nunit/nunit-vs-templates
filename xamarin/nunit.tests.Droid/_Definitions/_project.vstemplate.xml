@@ -1,6 +1,6 @@
 <VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
     <TemplateData>
-        <Name>NUnit 3 Android Test Project</Name>
+        <Name>NUnit 3 Test Project (Android)</Name>
         <Description>A project that contains NUnit 3 unit tests for Android using Xamarin</Description>
         <DefaultName>NUnit.Tests.Droid</DefaultName>
         <ProjectType>CSharp</ProjectType>
@@ -20,4 +20,24 @@
         <Project TargetFileName="NUnit.Tests.Droid.csproj" File="NUnit.Tests.Droid.csproj" ReplaceParameters="true">
         </Project>
     </TemplateContent>
+    <WizardExtension>
+        <Assembly>NuGet.VisualStudio.Interop, Version=1.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</Assembly>
+        <FullClassName>NuGet.VisualStudio.TemplateWizard</FullClassName>
+    </WizardExtension>
+    <WizardExtension>
+        <Assembly>Xamarin.VisualStudio.TemplateWizards, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0738eb9f132ed756</Assembly>
+        <FullClassName>Xamarin.VisualStudio.TemplateWizards.AndroidTargetFrameworkVersionWizard</FullClassName>
+    </WizardExtension>
+    <WizardData>
+        <packages repository="extension" repositoryId="nunit.templates.b29e95b8-bf26-4f03-983d-f1d0f21ad6ef">
+            <package id="NUnit" version="3.0.1" />
+            <package id="nunit.xamarin" version="3.0.1" />
+            <package id="Xamarin.Android.Support.v4" version="23.0.1.3" />
+            <package id="Xamarin.Android.Support.Design" version="23.0.1.3" />
+            <package id="Xamarin.Android.Support.v7.AppCompat" version="23.0.1.3" />
+            <package id="Xamarin.Android.Support.v7.CardView" version="23.0.1.3" />
+            <package id="Xamarin.Android.Support.v7.MediaRouter" version="23.0.1.3" />
+            <package id="Xamarin.Forms" version="2.0.0.6490" />
+        </packages>
+    </WizardData>
 </VSTemplate>

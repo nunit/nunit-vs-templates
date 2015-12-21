@@ -23,7 +23,7 @@
 using System.Reflection;
 using System.Runtime.InteropServices;
 
-[assembly: AssemblyTitle("NUnit.Tests.wp81")]
+[assembly: AssemblyTitle("NUnit.Tests")]
 [assembly: AssemblyDescription("NUnit Test Runner for Windows Phone 8.1")]
 
 [assembly: AssemblyCompany("NUnit Software")]

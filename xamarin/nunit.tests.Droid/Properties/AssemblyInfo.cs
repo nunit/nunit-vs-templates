@@ -23,7 +23,7 @@
 using System.Reflection;
 using System.Runtime.InteropServices;
 
-[assembly: AssemblyTitle("NUnit.Tests.Droid")]
+[assembly: AssemblyTitle("NUnit.Tests")]
 [assembly: AssemblyDescription("NUnit Test Runner for Android")]
 
 [assembly: AssemblyCompany("NUnit Software")]

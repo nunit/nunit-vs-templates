@@ -19,4 +19,13 @@
         <Project TargetFileName="NUnit.Tests.vbproj" File="NUnit.Tests.VB.vbproj" ReplaceParameters="true">
         </Project>
     </TemplateContent>
+    <WizardExtension>
+        <Assembly>NuGet.VisualStudio.Interop, Version=1.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</Assembly>
+        <FullClassName>NuGet.VisualStudio.TemplateWizard</FullClassName>
+    </WizardExtension>
+    <WizardData>
+        <packages repository="extension" repositoryId="nunit.templates.b29e95b8-bf26-4f03-983d-f1d0f21ad6ef">
+            <package id="NUnit" version="3.0.1" />
+        </packages>
+    </WizardData>
 </VSTemplate>
