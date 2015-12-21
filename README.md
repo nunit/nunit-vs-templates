@@ -21,21 +21,26 @@ The project currently provides the following templates.
 
 ### Project Templates
 
-| Template                     | Platform        | Language     |
-|------------------------------|-----------------|--------------|
-| NUnit 3 Unit Test Project    | Desktop         | C#           |
-| NUnit 3 Unit Test Project    | Desktop         | Visual Basic |
-| NUnit 3 Unit Test Project    | Xamarin Android | C#           |
-| NUnit 3 Unit Test Project    | Xamarin iOS     | C#           |
-| NUnit 3 Unit Test Project    | Xamarin UWP     | C#           |
-| NUnit 3 Unit Test Project    | Xamarin WP8.1   | C#           |
+| Template                     | Platform                     | Language     |
+|------------------------------|------------------------------|--------------|
+| NUnit 3 Unit Test Project    | Desktop                      | C#           |
+| NUnit 3 Unit Test Project    | Desktop                      | Visual Basic |
+| NUnit 3 Unit Test Project    | Xamarin Android <sup>1</sup> | C#           |
+| NUnit 3 Unit Test Project    | Xamarin iOS <sup>1</sup>     | C#           |
+| NUnit 3 Unit Test Project    | Xamarin UWP <sup>1,2</sup>   | C#           |
+| NUnit 3 Unit Test Project    | Xamarin WP8.1 <sup>1</sup>   | C#           |
+
+1. Requires [Xamarin for Visual Studio](https://xamarin.com/visual-studio) be installed.
+2. Requires the [Windows 10 SDK](https://dev.windows.com/en-us/downloads/windows-10-sdk) be installed.
 
 ### Item Templates
 
-| Template             | Language     |
-|----------------------|--------------|
-| NUnit Test Fixture  | C#           |
-| NUnit Test Fixture  | Visual Basic |
+| Template             | Language      |
+|----------------------|---------------|
+| NUnit Test Fixture   | C#            |
+| NUnit Test Fixture   | Visual Basic  |
+| NUnit SetUp Fixture  | C#            |
+| NUnit SetUp Fixture  | Visual Basic  |
 
 ### Code Snippets
 
@@ -91,7 +96,13 @@ instance of Visual Studio with the extension installed for testing.
 
 ### Adding Item Templates
 
-- *TBC*
+- Right-click on the *ItemTemplates\Test* folder in the **nunit.templates** project, **Add | New Item...** and add a **SideWaffle Item Template**. Don't worry about the name, it is not used
+- This will create a *CSharp* folder, rename it for your template 
+- Add your source file into your new folder and set the **Build Action** in properties to **Content**
+- Replace your namespace with *$rootnamespace$* and your class name with *$safeitemname$*
+- Four vstemplate files were created in a *Definitions* sub-folder. Delete any for languages your template does not support and then rename the remaining from **.vstemplat-* to **.vstemplate*
+- Fill in the *vstemplate* files using existing templates as a reference
+- Delete the *readme.txt* file and overwrite *icon.png* with an existing NUnit icon from another template.
 - Test your item template by compiling and running the project. This will open an experimental
 instance of Visual Studio with the extension installed for testing.
 - Add your item template to README.md

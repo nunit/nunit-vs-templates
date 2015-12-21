@@ -10,12 +10,6 @@ namespace $rootnamespace$
     [TestFixture]
     public class $safeitemname$
     {
-        [SetUp]
-        public void Setup()
-        {
-            
-        }
-
         [Test]
         public void TestMethod()
         {
