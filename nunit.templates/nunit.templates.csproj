@@ -104,14 +104,20 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\CSharp\Test\ntestfixture.snippet">
+    <Content Include="Snippets\CSharp\NUnit\ntestfixture.snippet">
       <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\CSharp\Test\ntest.snippet">
+    <Content Include="Snippets\CSharp\NUnit\ntest.snippet">
       <SubType>Designer</SubType>
+      <IncludeInVSIX>true</IncludeInVSIX>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Snippets\CSharp\Test\ntestcase.snippet">
+    <Content Include="Snippets\CSharp\NUnit\ntestcase.snippet">
       <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <None Include="source.extension.vsixmanifest">
       <SubType>Designer</SubType>
@@ -153,9 +159,9 @@
     </TemplateReference>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Snippets\C++\Test\" />
-    <Folder Include="Snippets\VisualBasic\Test\" />
-    <Folder Include="Snippets\XML\Test\" />
+    <Folder Include="Snippets\C++\NUnit\" />
+    <Folder Include="Snippets\VisualBasic\NUnit\" />
+    <Folder Include="Snippets\XML\NUnit\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(VSToolsPath)\VSSDK\Microsoft.VsSDK.targets" Condition="'$(VSToolsPath)' != ''" />
