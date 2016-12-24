@@ -2,16 +2,16 @@
 
 // C++
 [$RootKey$\Languages\CodeExpansions\C/C++\Paths]
-"NUnit" = "$PackageFolder$\Snippets\C++\Test"
+"NUnit" = "$PackageFolder$\Snippets\C++\NUnit"
 
 // C#
 [$RootKey$\Languages\CodeExpansions\CSharp\Paths]
-"NUnit" = "$PackageFolder$\Snippets\CSharp\Test"
+"NUnit" = "$PackageFolder$\Snippets\CSharp\NUnit"
 
 // Visual Basic
 [$RootKey$\Languages\CodeExpansions\Basic\Paths]
-"NUnit" = "$PackageFolder$\Snippets\VisualBasic\Test"
+"NUnit" = "$PackageFolder$\Snippets\VisualBasic\NUnit"
 
 // XML
 [$RootKey$\Languages\CodeExpansions\XML\Paths]
-"NUnit" = "$PackageFolder$\Snippets\XML\Test"
+"NUnit" = "$PackageFolder$\Snippets\XML\NUnit"
