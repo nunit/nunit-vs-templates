@@ -154,9 +154,6 @@
     <TemplateReference Include="nunit.tests.vb.vbproj">
       <PathToProject>../nunit.tests.vb/nunit.tests.vb.vbproj</PathToProject>
     </TemplateReference>
-    <TemplateReference Include="nunit.tests.wp81.csproj">
-      <PathToProject>../xamarin/nunit.tests.wp81/nunit.tests.wp81.csproj</PathToProject>
-    </TemplateReference>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Snippets\C++\NUnit\" />

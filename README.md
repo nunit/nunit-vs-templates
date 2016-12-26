@@ -28,7 +28,6 @@ The project currently provides the following templates.
 | NUnit 3 Unit Test Project    | Xamarin Android <sup>1</sup> | C#           |
 | NUnit 3 Unit Test Project    | Xamarin iOS <sup>1</sup>     | C#           |
 | NUnit 3 Unit Test Project    | Xamarin UWP <sup>1,2</sup>   | C#           |
-| NUnit 3 Unit Test Project    | Xamarin WP8.1 <sup>1</sup>   | C#           |
 
 1. Requires [Xamarin for Visual Studio](https://xamarin.com/visual-studio) be installed.
 2. Requires the [Windows 10 SDK](https://dev.windows.com/en-us/downloads/windows-10-sdk) be installed.
