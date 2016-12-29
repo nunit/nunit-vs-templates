@@ -6,7 +6,7 @@
     <Description xml:space="preserve">Provides Visual Studio project and item templates for NUnit 3 along with code snippets.</Description>
     <MoreInfo>https://github.com/nunit/nunit-vs-templates</MoreInfo>
     <License>license.rtf</License>
-    <Icon>nunit3_32x32.png</Icon>
+    <Icon>nunit_90.png</Icon>
     <PreviewImage>preview.png</PreviewImage>
     <Tags>tdd, test, NUnit, NUnit3, template, snippet</Tags>
   </Metadata>
