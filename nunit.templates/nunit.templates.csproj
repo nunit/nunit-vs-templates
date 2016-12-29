@@ -69,6 +69,10 @@
     <Content Include="ItemTemplates\Test\NUnit Setup Fixture\Definitions\CSharp.vstemplate" />
     <Content Include="ItemTemplates\Test\NUnit Setup Fixture\Definitions\VB.vstemplate" />
     <None Include="packages.config" />
+    <Content Include="nunit_90.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
     <Content Include="Packages\nunit.3.0.1.nupkg">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
@@ -125,10 +129,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="index.html" />
-    <Content Include="nunit3_32x32.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      <IncludeInVSIX>true</IncludeInVSIX>
-    </Content>
     <Content Include="stylesheet.css" />
   </ItemGroup>
   <ItemGroup>
