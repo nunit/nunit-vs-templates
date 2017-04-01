@@ -1,5 +1,5 @@
 ﻿// ***********************************************************************
-// Copyright (c) 2015 Charlie Poole
+// Copyright (c) 2017 Charlie Poole
 //
 // Permission is hereby granted, free of charge, to any person obtaining
 // a copy of this software and associated documentation files (the
@@ -21,13 +21,15 @@
 // WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 // ***********************************************************************
 
+using System.IO;
 using Android.App;
 using Android.Content.PM;
 using Android.OS;
+using NUnit.Runner.Services;
 
 namespace NUnit.Tests
 {
-    [Activity(Label = "NUnit", Icon = "@drawable/icon", Theme= "@android:style/Theme.Holo.Light", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
+    [Activity(Label = "NUnit", Icon = "@drawable/icon", Theme = "@android:style/Theme.Holo.Light", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
     public class MainActivity : global::Xamarin.Forms.Platform.Android.FormsApplicationActivity
     {
         protected override void OnCreate(Bundle savedInstanceState)
@@ -42,8 +44,26 @@ namespace NUnit.Tests
             // If you want to add tests in another assembly
             //nunit.AddTestAssembly(typeof(MyTests).Assembly);
 
-            // Do you want to automatically run tests when the app starts?
-            nunit.AutoRun = true;
+            // Available options for testing
+            nunit.Options = new TestOptions
+            {
+                // If True, the tests will run automatically when the app starts
+                // otherwise you must run them manually.
+                AutoRun = true,
+
+                // If True, the application will terminate automatically after running the tests.
+                //TerminateAfterExecution = true,
+
+                // Information about the tcp listener host and port.
+                // For now, send result as XML to the listening server.
+                //TcpWriterParameters = new TcpWriterInfo("192.168.0.108", 13000),
+
+                // Creates a NUnit Xml result file on the host file system using PCLStorage library.
+                // CreateXmlResultFile = true,
+
+                // Choose a different path for the xml result file
+                // ResultFilePath = Path.Combine(Environment.ExternalStorageDirectory.Path, Environment.DirectoryDownloads, "Nunit", "Results.xml")
+            };
 
             LoadApplication(nunit);
         }

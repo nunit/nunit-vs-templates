@@ -11,7 +11,7 @@
     <AssemblyName>NUnit.Tests</AssemblyName>
     <DefaultLanguage>en-US</DefaultLanguage>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
-    <TargetPlatformVersion>10.0.10240.0</TargetPlatformVersion>
+    <TargetPlatformVersion>10.0.14393.0</TargetPlatformVersion>
     <TargetPlatformMinVersion>10.0.10240.0</TargetPlatformMinVersion>
     <MinimumVisualStudioVersion>14</MinimumVisualStudioVersion>
     <EnableDotNetNativeCompatibleProfile>true</EnableDotNetNativeCompatibleProfile>
@@ -115,6 +115,8 @@
     <Content Include="Assets\NUnitSquare44x44Logo.targetsize-24_altform-unplated.png" />
     <Content Include="Assets\NUnitStoreLogo.png" />
     <Content Include="Assets\NUnitWide310x150Logo.scale-200.png" />
+    <Content Include="_Definitions\_project.vstemplate.xml" />
+    <Content Include="_preprocess.xml" />
   </ItemGroup>
   <ItemGroup>
     <ApplicationDefinition Include="UnitTestApp.xaml">
