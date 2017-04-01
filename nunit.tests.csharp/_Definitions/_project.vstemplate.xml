@@ -8,6 +8,7 @@
         <SortOrder>1000</SortOrder>
         <CreateNewFolder>true</CreateNewFolder>
         <ProvideDefaultName>true</ProvideDefaultName>
+        <PromptForSaveOnCreation>true</PromptForSaveOnCreation>
         <LocationField>Enabled</LocationField>
         <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
         <Icon>nunit.png</Icon>
