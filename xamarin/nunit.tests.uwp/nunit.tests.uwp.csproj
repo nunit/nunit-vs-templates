@@ -115,8 +115,6 @@
     <Content Include="Assets\NUnitSquare44x44Logo.targetsize-24_altform-unplated.png" />
     <Content Include="Assets\NUnitStoreLogo.png" />
     <Content Include="Assets\NUnitWide310x150Logo.scale-200.png" />
-    <Content Include="_Definitions\_project.vstemplate.xml" />
-    <Content Include="_preprocess.xml" />
   </ItemGroup>
   <ItemGroup>
     <ApplicationDefinition Include="UnitTestApp.xaml">
