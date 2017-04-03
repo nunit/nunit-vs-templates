@@ -26,7 +26,7 @@
     </WizardExtension>
     <WizardData>
         <packages repository="extension" repositoryId="nunit.templates.b29e95b8-bf26-4f03-983d-f1d0f21ad6ef">
-            <package id="NUnit" version="3.0.1" />
+            <package id="NUnit" version="3.6.1" />
         </packages>
     </WizardData>
 </VSTemplate>

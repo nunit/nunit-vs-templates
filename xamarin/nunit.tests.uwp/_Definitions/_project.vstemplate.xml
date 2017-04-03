@@ -32,9 +32,10 @@
     </WizardExtension>
     <WizardData>
         <packages repository="extension" repositoryId="nunit.templates.b29e95b8-bf26-4f03-983d-f1d0f21ad6ef">
-            <package id="NUnit" version="3.0.1" />
-            <package id="nunit.xamarin" version="3.0.1" />
-            <package id="Xamarin.Forms" version="2.0.0.6490" />
+            <package id="NUnit" version="3.6.1" />
+            <package id="nunit.xamarin" version="3.6.1" />
+            <package id="Xamarin.Forms" version="1.5.0.6447" />
+            <package id="PCLStorage" version="1.0.2" />
         </packages>
         <packages repository="registry" keyName="NETCoreSDK" isPreunzipped="true">
             <package id="Microsoft.NETCore.UniversalWindowsPlatform" version="5.0.0" skipAssemblyReferences="false" />
