@@ -2,7 +2,7 @@
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
   <Metadata>
     <Identity Id="nunit.templates.b29e95b8-bf26-4f03-983d-f1d0f21ad6ef" Version="1.2" Language="en-US" Publisher="Rob Prouse" />
-    <DisplayName>NUnit Templates for Visual Studio</DisplayName>
+    <DisplayName>NUnit VS Templates</DisplayName>
     <Description xml:space="preserve">Provides Visual Studio project and item templates for NUnit 3 along with code snippets.</Description>
     <MoreInfo>https://github.com/nunit/nunit-vs-templates</MoreInfo>
     <License>license.rtf</License>
@@ -13,6 +13,7 @@
   <Installation>
     <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[12.0,]" />
     <InstallationTarget Version="[11.0,)" Id="Microsoft.VisualStudio.Pro" />
+    <InstallationTarget Version="[11.0,)" Id="Microsoft.VisualStudio.Enterprise" />
   </Installation>
   <Dependencies>
     <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="[4.0,)" />
@@ -30,4 +31,7 @@
     <Asset Type="xamarin.android.support.v7.cardview.23.0.1.3.nupkg" d:Source="File" Path="Packages\xamarin.android.support.v7.cardview.23.0.1.3.nupkg" d:VsixSubPath="Packages" />
     <Asset Type="xamarin.android.support.v7.mediarouter.23.0.1.3.nupkg" d:Source="File" Path="Packages\xamarin.android.support.v7.mediarouter.23.0.1.3.nupkg" d:VsixSubPath="Packages" />
   </Assets>
+  <Prerequisites>
+    <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[15.0.26208.0,16.0)" DisplayName="Visual Studio core editor" />
+  </Prerequisites>
 </PackageManifest>
