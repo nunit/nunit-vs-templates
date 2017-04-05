@@ -12,8 +12,8 @@ thanks for their great work.
 
 ## Download
 
-You can download the extension for Visual Studio 2012, 2013 and 2015 from the [Visual Studio Gallery](https://visualstudiogallery.msdn.microsoft.com/6cd55f79-4936-49e7-b81d-c40fcd81abc7)
-or from the [GitHub Releases](https://github.com/nunit/nunit.templates/releases) page.
+You can download the extension for Visual Studio 2012-2017 from the [Visual Studio Gallery](https://visualstudiogallery.msdn.microsoft.com/6cd55f79-4936-49e7-b81d-c40fcd81abc7)
+or from the [GitHub Releases](https://github.com/nunit/nunit-vs-templates/releases) page.
 
 ## Content
 
