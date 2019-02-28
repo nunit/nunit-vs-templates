@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "nunit.templates", "nunit.templates\nunit.templates.csproj", "{0660DC45-821A-4763-9818-4D6798A3A253}"
 EndProject
@@ -26,6 +26,24 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "nunit.tests.iOS", "xamarin\nunit.tests.iOS\nunit.tests.iOS.csproj", "{D2CED8F0-7A76-454D-B5F7-9E8B9FE6A58E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "nunit.tests.uwp", "xamarin\nunit.tests.uwp\nunit.tests.uwp.csproj", "{159A55AF-9531-4107-8444-CA9C96107EF5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "nunit.tests.csharp", "nunit.tests.csharp", "{2A0B82E3-6197-4605-8561-6AC3A32C5579}"
+	ProjectSection(SolutionItems) = preProject
+		nunit.tests.csharp\_preprocess.xml = nunit.tests.csharp\_preprocess.xml
+		nunit.tests.csharp\nunit.png = nunit.tests.csharp\nunit.png
+		nunit.tests.csharp\nunit.tests.csharp.csproj = nunit.tests.csharp\nunit.tests.csharp.csproj
+		nunit.tests.csharp\TestClass.cs = nunit.tests.csharp\TestClass.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Definitions", "_Definitions", "{7B9C40FE-8A89-4A3A-9C77-B7C13A781676}"
+	ProjectSection(SolutionItems) = preProject
+		nunit.tests.csharp\_Definitions\_project.vstemplate.xml = nunit.tests.csharp\_Definitions\_project.vstemplate.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Properties", "Properties", "{E367F764-ECE8-4480-A42E-DF00D5E2C5CC}"
+	ProjectSection(SolutionItems) = preProject
+		nunit.tests.csharp\Properties\AssemblyInfo.cs = nunit.tests.csharp\Properties\AssemblyInfo.cs
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -231,5 +249,10 @@ Global
 		{AD7B78B0-AE51-4FB7-9B11-4E22A2B538CA} = {B5138D8C-725E-425D-ADCF-C298F6B88F95}
 		{D2CED8F0-7A76-454D-B5F7-9E8B9FE6A58E} = {B5138D8C-725E-425D-ADCF-C298F6B88F95}
 		{159A55AF-9531-4107-8444-CA9C96107EF5} = {B5138D8C-725E-425D-ADCF-C298F6B88F95}
+		{7B9C40FE-8A89-4A3A-9C77-B7C13A781676} = {2A0B82E3-6197-4605-8561-6AC3A32C5579}
+		{E367F764-ECE8-4480-A42E-DF00D5E2C5CC} = {2A0B82E3-6197-4605-8561-6AC3A32C5579}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {722CB21C-51BA-49C2-B37C-7A6E5785EA40}
 	EndGlobalSection
 EndGlobal
