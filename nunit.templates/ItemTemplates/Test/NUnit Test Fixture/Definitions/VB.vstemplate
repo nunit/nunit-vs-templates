@@ -4,7 +4,7 @@
 
     <DefaultName>TestClass.vb</DefaultName>
     <Name>NUnit Test Fixture</Name>
-    <Description>A class that contains NUnit unit tests</Description>
+    <Description>A class that contains NUnit unit tests (VB)</Description>
     <Icon>icon.png</Icon>
     <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
     <TemplateID>cb5f52ba-bd65-42e6-bbbf-f58c96cfd3c0</TemplateID>

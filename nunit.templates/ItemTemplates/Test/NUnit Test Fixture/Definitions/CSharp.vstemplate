@@ -4,7 +4,7 @@
 
     <DefaultName>TestClass.cs</DefaultName>
     <Name>NUnit Test Fixture</Name>
-    <Description>A class that contains NUnit unit tests</Description>
+    <Description>A class that contains NUnit unit tests (C#) </Description>
     <Icon>icon.png</Icon>
     <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
     <TemplateID>9936e07b-28c2-44ad-99da-d00b06c4e168</TemplateID>

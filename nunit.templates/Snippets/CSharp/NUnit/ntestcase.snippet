@@ -61,9 +61,12 @@
           <Function>SimpleTypeName(global::NUnit.Framework.TestCase)</Function>
         </Literal>
       </Declarations>
-      <Code Language="csharp" Delimiter="$"><![CDATA[      [$TestCase$($params$)]
+      <Code Language="csharp" Delimiter="$">
+        <![CDATA[      [$TestCase$($params$)]
       public void $name$($type$ $param$$end$)
       {
+          var answer = 42;
+          Assert.That(answer,Is.EqualTo(42),"Some useful error message");
       }]]></Code>
     </Snippet>
   </CodeSnippet>

@@ -1,12 +1,12 @@
 ﻿Option Explicit On
-
+' NUnit3 Tests,  see documentation : https://github.com/nunit/docs/wiki/NUnit-Documentation 
 Imports System
 Imports NUnit.Framework
 
-Namespace NUnit.Tests
+Namespace $safeprojectname$
 
     <TestFixture>
-    Public Class TestClass
+    Public Class $safeitemname$
 
         <Test>
         Public Sub TestMethod()

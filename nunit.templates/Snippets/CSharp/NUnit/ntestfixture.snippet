@@ -41,12 +41,15 @@
           <Function>SimpleTypeName(global::NUnit.Framework.Test)</Function>
         </Literal>
       </Declarations>
-      <Code Language="csharp"><![CDATA[[$TestFixture$]
+      <Code Language="csharp">
+            <![CDATA[[$TestFixture$]
       public class $cname$Test
       {
           [$Test$]
           public void $tname$()
           {
+               var answer = 42;
+               Assert.That(answer,Is.EqualTo(42),"Some useful error message");
               $end$
           }
       }]]></Code>
