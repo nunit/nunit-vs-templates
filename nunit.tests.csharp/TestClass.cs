@@ -1,4 +1,5 @@
-﻿// NUnit3 Tests,  see documentation : https://github.com/nunit/docs/wiki/NUnit-Documentation 
+﻿// NUnit3 tests
+// See documentation : https://github.com/nunit/docs/wiki/NUnit-Documentation
 using NUnit.Framework;
 
 namespace $safeprojectname$
