@@ -1,4 +1,4 @@
-﻿// NUnit3 tests
+﻿// NUnit 3 tests
 // See documentation : https://github.com/nunit/docs/wiki/NUnit-Documentation
 using NUnit.Framework;
 
