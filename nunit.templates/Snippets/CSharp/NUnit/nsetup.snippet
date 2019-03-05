@@ -5,12 +5,12 @@
       <SnippetTypes>
         <SnippetType>Expansion</SnippetType>
       </SnippetTypes>
-      <Title>NUnit Test Method</Title>
-      <Author>Rob Prouse</Author>
-      <Description>Code snippet for a test method</Description>
+      <Title>NUnit SetUp Method</Title>
+      <Author>Terje Sandstrom</Author>
+      <Description>Code snippet for a setup method</Description>
       <HelpUrl>
       </HelpUrl>
-      <Shortcut>ntest</Shortcut>
+      <Shortcut>nsetup</Shortcut>
     </Header>
     <Snippet>
       <Imports>
@@ -26,13 +26,13 @@
       <Declarations>
         <Literal Editable="true">
           <ID>name</ID>
-          <ToolTip>Replace with the name of the test method</ToolTip>
-          <Default>TestMethod</Default>
+          <ToolTip>Replace with the name of the setup method</ToolTip>
+          <Default>TestSetUp</Default>
           <Function>
           </Function>
         </Literal>
         <Literal Editable="false">
-          <ID>Test</ID>
+          <ID>SetUp</ID>
           <ToolTip>
           </ToolTip>
           <Default>
@@ -41,11 +41,10 @@
         </Literal>
       </Declarations>
       <Code Language="csharp" Delimiter="$">
-        <![CDATA[      [$Test$]
+        <![CDATA[      [$SetUp$]
       public void $name$()
       {
-          var answer = 42;
-          Assert.That(answer, Is.EqualTo(42), "Some useful error message");
+          // Add code that runs before each test method
           $end$
       }]]></Code>
     </Snippet>

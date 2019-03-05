@@ -1,20 +1,18 @@
-﻿using NUnit.Framework;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿// NUnit 3 tests
+// See documentation : https://github.com/nunit/docs/wiki/NUnit-Documentation
+using NUnit.Framework;
 
-namespace NUnit.Tests
+namespace $safeprojectname$
 {
     [TestFixture]
-    public class TestClass
+    public class $safeitemname$
     {
         [Test]
         public void TestMethod()
         {
             // TODO: Add your test code here
-            Assert.Pass("Your first passing test");
+            var answer = 42;
+            Assert.That(answer, Is.EqualTo(42), "Some useful error message");
         }
     }
 }

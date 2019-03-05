@@ -1,7 +1,7 @@
 <VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
     <TemplateData>
         <Name>NUnit 3 Unit Test Project</Name>
-        <Description>A project that contains NUnit 3 unit tests</Description>
+        <Description>A project that contains NUnit 3 unit tests (VB)</Description>
         <DefaultName>NUnit.Tests</DefaultName>
         <ProjectType>VisualBasic</ProjectType>
         <ProjectSubType></ProjectSubType>
@@ -26,7 +26,8 @@
     </WizardExtension>
     <WizardData>
         <packages repository="extension" repositoryId="nunit.templates.b29e95b8-bf26-4f03-983d-f1d0f21ad6ef">
-            <package id="NUnit" version="3.6.1" />
+            <package id="NUnit" version="3.11.0" />
+            <package id="NUnit3TestAdapter" version="3.13.0" />
         </packages>
     </WizardData>
 </VSTemplate>

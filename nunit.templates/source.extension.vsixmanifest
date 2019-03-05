@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
-        <Identity Id="nunit.templates.b29e95b8-bf26-4f03-983d-f1d0f21ad6ef" Version="1.3" Language="en-US" Publisher="Rob Prouse" />
+        <Identity Id="nunit.templates.b29e95b8-bf26-4f03-983d-f1d0f21ad6ef" Version="1.5" Language="en-US" Publisher="Rob Prouse" />
         <DisplayName>NUnit VS Templates</DisplayName>
         <Description xml:space="preserve">Provides Visual Studio project and item templates for NUnit 3 along with code snippets.</Description>
         <MoreInfo>https://github.com/nunit/nunit-vs-templates</MoreInfo>
@@ -22,7 +22,8 @@
         <Asset Type="Microsoft.VisualStudio.ItemTemplate" Path="Output\ItemTemplates" />
         <Asset Type="Microsoft.VisualStudio.ProjectTemplate" Path="Output\ProjectTemplates" />
         <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="File" Path="snippets.pkgdef" />
-        <Asset Type="nunit.3.6.1.nupkg" d:Source="File" Path="Packages\NUnit.3.6.1.nupkg" d:VsixSubPath="Packages" />
+        <Asset Type="nunit.3.11.0.nupkg" d:Source="File" Path="Packages\NUnit.3.11.0\NUnit.3.11.0.nupkg" d:VsixSubPath="Packages" />
+        <Asset Type="nunit3testadapter.3.13.0.nupkg" d:Source="File" Path="Packages\nunit3testadapter.3.13.0\NUnit.3.13.0.nupkg" d:VsixSubPath="Packages" />
         <Asset Type="pclstorage.1.0.2.nupkg" d:Source="File" Path="Packages\pclstorage.1.0.2.nupkg" d:VsixSubPath="Packages" />
         <Asset Type="xamarin.forms.1.5.0.6447.nupkg" d:Source="File" Path="Packages\xamarin.forms.1.5.0.6447.nupkg" d:VsixSubPath="Packages" />
         <Asset Type="xamarin.android.support.v4.22.2.1.nupkg" d:Source="File" Path="Packages\xamarin.android.support.v4.22.2.1.nupkg" d:VsixSubPath="Packages" />
