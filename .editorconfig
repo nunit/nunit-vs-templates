@@ -5,6 +5,10 @@ root = true
 indent_style = space
 indent_size = 4
 
-[*.{csproj,vsixmanifest,vstemplate,snippet}]
+[*.{csproj,vstemplate,snippet}]
 indent_style = space
 indent_size = 2
+
+[*.{vsixmanifest}]
+indent_style = space
+indent_size = 4
