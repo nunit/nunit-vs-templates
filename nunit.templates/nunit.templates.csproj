@@ -130,9 +130,12 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
+    <None Include="Snippets\CSharp\NUnit\nonetimesetup.snippet" />
+    <None Include="Snippets\CSharp\NUnit\nonetimeteardown.snippet" />
     <None Include="Snippets\CSharp\NUnit\nsetup.snippet">
       <SubType>Designer</SubType>
     </None>
+    <None Include="Snippets\CSharp\NUnit\nteardown.snippet" />
     <None Include="source.extension.vsixmanifest">
       <SubType>Designer</SubType>
     </None>
@@ -149,23 +152,6 @@
     <Reference Include="TemplateBuilder, Version=1.2.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\TemplateBuilder.1.1.6.1\lib\TemplateBuilder.dll</HintPath>
     </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <TemplateReference Include="nunit.tests.csharp.csproj">
-      <PathToProject>../nunit.tests.csharp/nunit.tests.csharp.csproj</PathToProject>
-    </TemplateReference>
-    <TemplateReference Include="nunit.tests.Droid.csproj">
-      <PathToProject>../xamarin/nunit.tests.Droid/nunit.tests.Droid.csproj</PathToProject>
-    </TemplateReference>
-    <TemplateReference Include="nunit.tests.iOS.csproj">
-      <PathToProject>../xamarin/nunit.tests.iOS/nunit.tests.iOS.csproj</PathToProject>
-    </TemplateReference>
-    <TemplateReference Include="nunit.tests.uwp.csproj">
-      <PathToProject>../xamarin/nunit.tests.uwp/nunit.tests.uwp.csproj</PathToProject>
-    </TemplateReference>
-    <TemplateReference Include="nunit.tests.vb.vbproj">
-      <PathToProject>../nunit.tests.vb/nunit.tests.vb.vbproj</PathToProject>
-    </TemplateReference>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Snippets\C++\NUnit\" />

@@ -5,12 +5,12 @@
       <SnippetTypes>
         <SnippetType>Expansion</SnippetType>
       </SnippetTypes>
-      <Title>NUnit SetUp Method</Title>
+      <Title>NUnit OneTimeSetUp Method</Title>
       <Author>Terje Sandstrom</Author>
-      <Description>Code snippet for a setup method</Description>
+      <Description>Code snippet for a onetimesetup method</Description>
       <HelpUrl>
       </HelpUrl>
-      <Shortcut>nsetup</Shortcut>
+      <Shortcut>nonetimesetup</Shortcut>
     </Header>
     <Snippet>
       <Imports>
@@ -26,25 +26,25 @@
       <Declarations>
         <Literal Editable="true">
           <ID>name</ID>
-          <ToolTip>Replace with the name of the setup method</ToolTip>
-          <Default>SetUp</Default>
+          <ToolTip>Replace with the name of the OneTimeSetUp method</ToolTip>
+          <Default>OneTimeSetUp</Default>
           <Function>
           </Function>
         </Literal>
         <Literal Editable="false">
-          <ID>SetUp</ID>
+          <ID>OneTimeSetUp</ID>
           <ToolTip>
           </ToolTip>
           <Default>
           </Default>
-          <Function>SimpleTypeName(global::NUnit.Framework.SetUp)</Function>
+          <Function>SimpleTypeName(global::NUnit.Framework.OneTimeSetUp)</Function>
         </Literal>
       </Declarations>
       <Code Language="csharp" Delimiter="$">
-        <![CDATA[      [$SetUp$]
+        <![CDATA[      [$OneTimeSetUp$]
       public void $name$()
       {
-          // Add code that runs before each test method
+          // Add code that runs once prior to executing any of the tests in a fixture
           $end$
       }]]></Code>
     </Snippet>

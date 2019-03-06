@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
-        <Identity Id="nunit.templates.b29e95b8-bf26-4f03-983d-f1d0f21ad6ef" Version="1.5" Language="en-US" Publisher="Rob Prouse" />
+        <Identity Id="nunit.templates.b29e95b8-bf26-4f03-983d-f1d0f21ad6ef" Version="1.4.7" Language="en-US" Publisher="Rob Prouse" />
         <DisplayName>NUnit VS Templates</DisplayName>
         <Description xml:space="preserve">Provides Visual Studio project and item templates for NUnit 3 along with code snippets.</Description>
         <MoreInfo>https://github.com/nunit/nunit-vs-templates</MoreInfo>
