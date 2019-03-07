@@ -144,6 +144,9 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
+    <None Include="Snippets\CSharp\NUnit\nmultiple.snippet">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="Snippets\CSharp\NUnit\nonetimesetup.snippet" />
     <None Include="Snippets\CSharp\NUnit\nonetimeteardown.snippet" />
     <None Include="Snippets\CSharp\NUnit\nsetup.snippet">

@@ -1,4 +1,5 @@
-﻿// NUnit3 Tests,  see documentation : https://github.com/nunit/docs/wiki/NUnit-Documentation 
+﻿// Whatever is written in this file is not used.   
+// NUnit3 Tests,  see documentation : https://github.com/nunit/docs/wiki/NUnit-Documentation 
 using NUnit.Framework;
 
 namespace $rootnamespace$

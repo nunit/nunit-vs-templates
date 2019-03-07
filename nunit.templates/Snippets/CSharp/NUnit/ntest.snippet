@@ -40,12 +40,11 @@
           <Function>SimpleTypeName(global::NUnit.Framework.Test)</Function>
         </Literal>
       </Declarations>
-      <Code Language="csharp" Delimiter="$">
-        <![CDATA[      [$Test$]
+      <Code Language="csharp" Delimiter="$"><![CDATA[      [$Test$]
       public void $name$()
       {
           var answer = 42;
-          Assert.That(answer, Is.EqualTo(42), "Some useful error message");
+          Assert.That(answer, Is.EqualTo(42), "Some useful error message");$end$
       }]]></Code>
     </Snippet>
   </CodeSnippet>
