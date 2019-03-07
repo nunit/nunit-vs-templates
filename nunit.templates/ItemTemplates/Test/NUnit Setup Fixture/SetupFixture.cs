@@ -9,6 +9,7 @@ namespace $rootnamespace$
         [OneTimeSetUp]
         public void OneTimeSetUp()
         {
+            // From ItemTemplates folder
             // TODO: Add code here that is run before
             //  all tests in the assembly are run            
         }

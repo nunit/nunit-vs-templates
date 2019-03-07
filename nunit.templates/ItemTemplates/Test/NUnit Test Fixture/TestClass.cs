@@ -9,6 +9,7 @@ namespace $rootnamespace$
         [Test]
         public void TestMethod()
         {
+            // From ItemTemplates folder
             // TODO: Add your test code here
             var answer = 43;
             Assert.That(answer,Is.EqualTo(42),"Some useful error message");
