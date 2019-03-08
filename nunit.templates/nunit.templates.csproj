@@ -75,14 +75,10 @@
   </PropertyGroup>
   <ItemGroup>
     <Content Include="ItemTemplates\Test\NUnit Setup Fixture\icon.png" />
-    <Content Include="ItemTemplates\Test\NUnit Setup Fixture\SetupFixture.vb" />
-    <Content Include="ItemTemplates\Test\NUnit Test Fixture\TestClass.cs" />
-    <Content Include="ItemTemplates\Test\NUnit Setup Fixture\SetupFixture.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="ItemTemplates\Test\NUnit Test Fixture\icon.png" />
-    <Content Include="ItemTemplates\Test\NUnit Test Fixture\TestClass.vb" />
     <Content Include="ItemTemplates\Test\NUnit Test Fixture\Definitions\CSharp.vstemplate">
       <SubType>Designer</SubType>
     </Content>
