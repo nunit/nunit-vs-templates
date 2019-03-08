@@ -149,6 +149,7 @@
       <SubType>Designer</SubType>
     </None>
     <None Include="Snippets\CSharp\NUnit\nteardown.snippet" />
+    <None Include="Snippets\CSharp\NUnit\ntestcasesource.snippet" />
     <None Include="source.extension.vsixmanifest">
       <SubType>Designer</SubType>
     </None>

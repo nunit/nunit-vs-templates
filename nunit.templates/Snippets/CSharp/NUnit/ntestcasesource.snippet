@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+      <Title>NUnit TestCaseSource Method</Title>
+      <Author>Terje Sandstrom</Author>
+      <Description>Code snippet for a testcasesource method</Description>
+      <HelpUrl>
+      </HelpUrl>
+      <Shortcut>ntestcasesource</Shortcut>
+    </Header>
+    <Snippet>
+      <Imports>
+        <Import>
+          <Namespace>NUnit.Framework</Namespace>
+        </Import>
+      </Imports>
+      <References>
+        <Reference>
+          <Assembly>nunit.framework.dll</Assembly>
+        </Reference>
+      </References>
+      <Declarations>
+        <Literal Editable="true">
+          <ID>name</ID>
+          <ToolTip>Replace with the name of the test method</ToolTip>
+          <Default>ThatDataIsGreaterThanZero</Default>
+          <Function>
+          </Function>
+        </Literal>
+        <Literal Editable="false">
+          <ID>TestCaseSource</ID>
+          <ToolTip>
+          </ToolTip>
+          <Default>
+          </Default>
+          <Function>SimpleTypeName(global::NUnit.Framework.TestCaseSource)</Function>
+        </Literal>
+      </Declarations>
+      <Code Language="csharp" Delimiter="$"><![CDATA[
+      // Read more https://github.com/nunit/docs/wiki/TestCaseSource-Attribute
+      static readonly List<int> MyTestCaseSource = new List<int> {1,2,3,4 };
+
+      [$TestCaseSource(nameof(MyTestCaseSource))$]
+      public void $name$(int someData)
+      {
+          Assert.That(someData, Is.GreaterThab(0), "Some useful error message");$end$
+      }]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>
