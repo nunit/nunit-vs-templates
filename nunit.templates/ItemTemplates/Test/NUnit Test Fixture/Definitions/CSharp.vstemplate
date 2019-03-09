@@ -1,7 +1,7 @@
 <VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item">
   <TemplateData>
     <ProjectType>CSharp</ProjectType>
-
+    <Category>CSharp</Category>
     <DefaultName>TestClass.cs</DefaultName>
     <Name>NUnit Test Fixture</Name>
     <Description>A class that contains NUnit unit tests (C#) </Description>
@@ -9,6 +9,7 @@
     <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
     <TemplateID>9936e07b-28c2-44ad-99da-d00b06c4e168</TemplateID>
     <SortOrder>2000</SortOrder>
+    <AppliesTo>CSharp</AppliesTo>
   </TemplateData>
   <TemplateContent>
     <References />

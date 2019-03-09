@@ -1,7 +1,7 @@
 <VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item">
   <TemplateData>
     <ProjectType>VisualBasic</ProjectType>
-
+ <Category>VisualBasic</Category>
     <DefaultName>TestClass.vb</DefaultName>
     <Name>NUnit Test Fixture</Name>
     <Description>A class that contains NUnit unit tests (VB)</Description>
@@ -9,6 +9,7 @@
     <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
     <TemplateID>cb5f52ba-bd65-42e6-bbbf-f58c96cfd3c0</TemplateID>
     <SortOrder>2000</SortOrder>
+      <AppliesTo>VisualBasic</AppliesTo>
   </TemplateData>
   <TemplateContent>
     <References />

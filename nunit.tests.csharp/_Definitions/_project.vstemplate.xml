@@ -4,6 +4,7 @@
         <Description>A project that contains NUnit 3 unit tests (C#)</Description>
         <DefaultName>NUnit.Tests</DefaultName>
         <ProjectType>CSharp</ProjectType>
+          <Category>CSharp</Category>
         <ProjectSubType></ProjectSubType>
         <SortOrder>1000</SortOrder>
         <CreateNewFolder>true</CreateNewFolder>
@@ -12,9 +13,10 @@
         <LocationField>Enabled</LocationField>
         <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
         <Icon>nunit.png</Icon>
-        <TemplateID>b0d3ff60-1340-4462-abf6-7d7cc9f175c5</TemplateID>
+        <TemplateID>b0d3ff60-1340-4462-abf6-7d7cc9f175c6</TemplateID>
         <!-- Indicates how many parent folders this item template should appear in -->
         <NumberOfParentCategoriesToRollUp>0</NumberOfParentCategoriesToRollUp>
+          <AppliesTo>CSharp</AppliesTo>
     </TemplateData>
     <TemplateContent>
         <Project TargetFileName="NUnit.Tests.csproj" File="NUnit.Tests.CSharp.csproj" ReplaceParameters="true">
