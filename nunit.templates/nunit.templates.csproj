@@ -74,9 +74,19 @@
     <TemplateBuilderTargets Condition=" '$(TemplateBuilderTargets)'=='' ">$([System.IO.Path]::GetFullPath( $(MSBuildProjectDirectory)\..\packages\TemplateBuilder.1.1.6.1\tools\ligershark.templates.targets ))</TemplateBuilderTargets>
   </PropertyGroup>
   <ItemGroup>
+    <Content Include="ItemTemplates\Test\NUnit Setup Fixture\icon.png" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="ItemTemplates\Test\NUnit Test Fixture\icon.png" />
+    <Content Include="ItemTemplates\Test\NUnit Test Fixture\Definitions\CSharp.vstemplate">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="ItemTemplates\Test\NUnit Test Fixture\Definitions\VB.vstemplate">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="ItemTemplates\Test\NUnit Setup Fixture\Definitions\CSharp.vstemplate" />
+    <Content Include="ItemTemplates\Test\NUnit Setup Fixture\Definitions\VB.vstemplate" />
     <Content Include="nunit_90.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
@@ -130,7 +140,23 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
+    <None Include="Snippets\CSharp\NUnit\nmultiple.snippet">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Snippets\CSharp\NUnit\nonetimesetup.snippet" />
+    <None Include="Snippets\CSharp\NUnit\nonetimeteardown.snippet" />
     <None Include="Snippets\CSharp\NUnit\nsetup.snippet">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Snippets\CSharp\NUnit\nteardown.snippet" />
+    <None Include="Snippets\CSharp\NUnit\ntestcasesource1.snippet" />
+    <None Include="Snippets\CSharp\NUnit\ntestcasesource2.snippet">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Snippets\CSharp\NUnit\ntestcasesource3.snippet">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Snippets\CSharp\NUnit\ntestcasesource4.snippet">
       <SubType>Designer</SubType>
     </None>
     <None Include="source.extension.vsixmanifest">

@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <SnippetTypes>
+        <SnippetType>SurroundsWith</SnippetType>
+      </SnippetTypes>
+      <Title>Assert Multiple</Title>
+      <Author>Terje Sandstrom</Author>
+      <Description>
+        When you have multiple asserts that should be evaluated together, 
+        surround them with an Assert.Multiple
+      </Description>
+      <HelpUrl>
+      </HelpUrl>
+      <Shortcut>nmultiple</Shortcut>
+    </Header>
+    <Snippet>
+      <Code Language="csharp" Delimiter="$"><![CDATA[
+        Assert.Multiple(()=>
+        {
+            $selected$
+        });
+       $end$]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

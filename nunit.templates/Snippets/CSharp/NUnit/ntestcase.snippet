@@ -34,7 +34,7 @@
         <Literal Editable="true">
           <ID>params</ID>
           <ToolTip>Replace with the parameters to the test method</ToolTip>
-          <Default>1</Default>
+          <Default>42</Default>
           <Function>
           </Function>
         </Literal>
@@ -65,7 +65,7 @@
         <![CDATA[      [$TestCase$($params$)]
       public void $name$($type$ $param$$end$)
       {
-          var answer = 42;
+          var answer = $param$;
           Assert.That(answer, Is.EqualTo(42), "Some useful error message");
       }]]></Code>
     </Snippet>

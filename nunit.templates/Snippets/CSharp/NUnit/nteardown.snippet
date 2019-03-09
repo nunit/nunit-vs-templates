@@ -5,12 +5,12 @@
       <SnippetTypes>
         <SnippetType>Expansion</SnippetType>
       </SnippetTypes>
-      <Title>NUnit Test Method</Title>
-      <Author>Rob Prouse</Author>
-      <Description>Code snippet for a test method</Description>
+      <Title>NUnit TearDown Method</Title>
+      <Author>Terje Sandstrom</Author>
+      <Description>Code snippet for a teardown method</Description>
       <HelpUrl>
       </HelpUrl>
-      <Shortcut>ntest</Shortcut>
+      <Shortcut>nteardown</Shortcut>
     </Header>
     <Snippet>
       <Imports>
@@ -26,25 +26,26 @@
       <Declarations>
         <Literal Editable="true">
           <ID>name</ID>
-          <ToolTip>Replace with the name of the test method</ToolTip>
-          <Default>TestMethod</Default>
+          <ToolTip>Replace with the name of the teardown method</ToolTip>
+          <Default>TearDown</Default>
           <Function>
           </Function>
         </Literal>
         <Literal Editable="false">
-          <ID>Test</ID>
+          <ID>TearDown</ID>
           <ToolTip>
           </ToolTip>
           <Default>
           </Default>
-          <Function>SimpleTypeName(global::NUnit.Framework.Test)</Function>
+          <Function>SimpleTypeName(global::NUnit.Framework.TearDown)</Function>
         </Literal>
       </Declarations>
-      <Code Language="csharp" Delimiter="$"><![CDATA[      [$Test$]
+      <Code Language="csharp" Delimiter="$">
+        <![CDATA[      [$TearDown$]
       public void $name$()
       {
-          var answer = 42;
-          Assert.That(answer, Is.EqualTo(42), "Some useful error message");$end$
+          // Add code that runs after each test method
+          $end$
       }]]></Code>
     </Snippet>
   </CodeSnippet>
