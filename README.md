@@ -33,7 +33,7 @@ The project currently provides the following templates.
 
 1. Requires [Xamarin for Visual Studio](https://xamarin.com/visual-studio) be installed.
 2. Requires the [Windows 10 SDK](https://dev.windows.com/en-us/downloads/windows-10-sdk) be installed.
-3. Traditional Style => Old style legacy csproj format 
+3. Legacy csproj format 
 
 ### Item Templates
 
