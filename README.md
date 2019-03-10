@@ -12,7 +12,7 @@ thanks for their great work.
 
 ## Download
 
-You can download the extension for Visual Studio 2012-2017 from the [Visual Studio Gallery](https://visualstudiogallery.msdn.microsoft.com/6cd55f79-4936-49e7-b81d-c40fcd81abc7)
+You can download the extension for Visual Studio 2012-2019 from the [Visual Studio Gallery](https://visualstudiogallery.msdn.microsoft.com/6cd55f79-4936-49e7-b81d-c40fcd81abc7)
 or from the [GitHub Releases](https://github.com/nunit/nunit-vs-templates/releases) page.
 
 ## Content
@@ -21,16 +21,19 @@ The project currently provides the following templates.
 
 ### Project Templates
 
-| Template                     | Platform                     | Language     |
-|------------------------------|------------------------------|--------------|
-| NUnit 3 Unit Test Project    | Desktop                      | C#           |
-| NUnit 3 Unit Test Project    | Desktop                      | Visual Basic |
-| NUnit 3 Unit Test Project    | Xamarin Android <sup>1</sup> | C#           |
-| NUnit 3 Unit Test Project    | Xamarin iOS <sup>1</sup>     | C#           |
-| NUnit 3 Unit Test Project    | Xamarin UWP <sup>1,2</sup>   | C#           |
+| Template                     | Platform                     | Language     | Project Type         |
+|------------------------------|------------------------------|--------------|----------------------|
+| NUnit 3 Unit Test Project    | Desktop                      | C#           | Traditional Style <sup>3</sup> |
+| NUnit 3 Unit Test Project    | Desktop                      | C#           | Sdk Style            | 
+| NUnit 3 Unit Test Project    | Desktop .NET Core            | C#           | SDK Style            | 
+| NUnit 3 Unit Test Project    | Desktop                      | Visual Basic | Traditional Style <sup>3</sup> |
+| NUnit 3 Unit Test Project    | Xamarin Android <sup>1</sup> | C#           | Traditional Style    |
+| NUnit 3 Unit Test Project    | Xamarin iOS <sup>1</sup>     | C#           | Traditional Style    |
+| NUnit 3 Unit Test Project    | Xamarin UWP <sup>1,2</sup>   | C#           | Traditional Style    |
 
 1. Requires [Xamarin for Visual Studio](https://xamarin.com/visual-studio) be installed.
 2. Requires the [Windows 10 SDK](https://dev.windows.com/en-us/downloads/windows-10-sdk) be installed.
+3. Legacy csproj format 
 
 ### Item Templates
 
@@ -43,11 +46,18 @@ The project currently provides the following templates.
 
 ### Code Snippets
 
-| Snippet         | Shortcut     | Language      |
-|-----------------|--------------|---------------|
-| Test Fixture    | ntestfixture | C#            |
-| Test Method     | ntest        | C#            |
-| Test Case       | ntestcase    | C#            |
+| Snippet         | Shortcut     | Language      | Comment |
+|-----------------|--------------|---------------|---------|
+| Test Fixture    | ntestfixture | C#            | |
+| Test Method     | ntest        | C#            | |
+| Test Case       | ntestcase    | C#            | |
+| Test Case Source | ntestcasesource     | C#  | Form 1 |
+| Test Case Source | ntestcasesource2    | C#  | Form 2 |
+| Test Case Source | ntestcasesource3    | C#  | Form 3 |
+| Test Case Source | ntestcasesource4    | C#  | Form 3 with testdata|
+| Assert.Multiple | nmultiple | C# | Surround snippet |
+
+Note:  "Form": Refer to [documentation for details](https://github.com/nunit/docs/wiki/TestCaseSource-Attribute)
 
 ## Contributing
 
@@ -66,7 +76,7 @@ There is also a great walkthrough on creating templates in the
 We highly recommend that you use the following extensions for Visual Studio when
 working on this project.
 
-- [SideWaffle](http://sidewaffle.com/) (Required) - Adds the 
+- [SideWaffle](http://sidewaffle.com/) (Not needed, now included as nuget package) - Adds the 
 templates and functionality you will need to work on this project.
 - [Snippet Designer](https://github.com/mmanela/SnippetDesigner) - Provides a
 friendly UI for editing code snippets.

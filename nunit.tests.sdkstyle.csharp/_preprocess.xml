@@ -7,10 +7,5 @@
     <TemplateInfo Path="CSharp\Test"/>
     <Replacements Include="*.*" Exclude="*.vstemplate;*.fsproj;*.vbproj;*.jpg;*.png;*.ico;_preprocess.xml;_project.vstemplate.xml">
         <add key="NUnit.Tests" value="$safeprojectname$"/>
-   <!--targetFramework="4.0"-->
-    <add key="targetFramework=&quot;4.0&quot;" value="targetFramework=&quot;$targetframeworkversion$&quot;"/>
-    <!--<TargetFrameworkVersion>v4.0</TargetFrameworkVersion>-->
-    <add key="&lt;TargetFrameworkVersion&gt;v4.0&lt;/TargetFrameworkVersion&gt;" 
-         value="&lt;TargetFrameworkVersion&gt;v$targetframeworkversion$&lt;/TargetFrameworkVersion&gt;"/>
     </Replacements>
 </Preprocess>
