@@ -1,10 +1,9 @@
 ﻿Option Explicit On
-' NUnit 3 tests
-' See documentation : https://github.com/nunit/docs/wiki/NUnit-Documentation
+
 Imports System
 Imports NUnit.Framework
 
-Namespace $safeprojectname$
+Namespace $rootnamespace$
 
     <TestFixture>
     Public Class $safeitemname$

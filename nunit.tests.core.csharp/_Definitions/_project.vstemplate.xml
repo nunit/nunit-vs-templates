@@ -1,7 +1,7 @@
 <VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
     <TemplateData>
-        <Name>NUnit 3 .Net Core Unit Test Project</Name>
-        <Description>A project that contains .Net Core NUnit 3 unit tests (C#)</Description>
+        <Name>NUnit 3 .NET Core Unit Test Project</Name>
+        <Description>A project that contains .NET Core NUnit 3 unit tests (C#)</Description>
         <DefaultName>NUnit.Tests</DefaultName>
         <ProjectType>CSharp</ProjectType>
           <Category>CSharp</Category>
@@ -12,26 +12,30 @@
         <PromptForSaveOnCreation>true</PromptForSaveOnCreation>
         <LocationField>Enabled</LocationField>
         <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
-        <Icon>..\..\nunit.png</Icon>
+        <!-- <Icon>nunit.png</Icon> -->
         <TemplateID>b0d3ff60-1340-4462-abf6-7d7cc9f175c5</TemplateID>
         <!-- Indicates how many parent folders this item template should appear in -->
         <NumberOfParentCategoriesToRollUp>0</NumberOfParentCategoriesToRollUp>
         <AppliesTo>CSharp</AppliesTo>
-        <CreateInPlace>true</CreateInPlace>
+        <CreateInPlace>true</CreateInPlace> 
     </TemplateData>
     <TemplateContent>
         <Project TargetFileName="NUnit.Tests.Core.csproj" File="NUnit.Tests.Core.CSharp.csproj" ReplaceParameters="true">
         </Project>
+        <CustomParameters>
+            <CustomParameter Name = "$language$" Value="CSharp" />
+        </CustomParameters>
+    
     </TemplateContent>
     <WizardExtension>
         <Assembly>NuGet.VisualStudio.Interop, Version=1.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</Assembly>
         <FullClassName>NuGet.VisualStudio.TemplateWizard</FullClassName>
     </WizardExtension>
     <WizardData>
-        <packages repository="extension" repositoryId="nunit.templates.b29e95b8-bf26-4f03-983d-f1d0f21ad6ef">
+        <!-- <packages repository="extension" repositoryId="nunit.templates.b29e95b8-bf26-4f03-983d-f1d0f21ad6ef">
             <package id="NUnit" version="3.11.0" />
             <package id="NUnit3TestAdapter" version="3.13.0" />
             <package id="Microsoft.NET.Test.Sdk" version="15.9.0" />
-        </packages>
+        </packages> -->
     </WizardData>
 </VSTemplate>

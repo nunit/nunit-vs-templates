@@ -4,7 +4,7 @@
         <Description>A project that contains NUnit 3 unit tests (C#)</Description>
         <DefaultName>NUnit.Tests</DefaultName>
         <ProjectType>CSharp</ProjectType>
-          <Category>CSharp</Category>
+        <Category>CSharp</Category>
         <ProjectSubType></ProjectSubType>
         <SortOrder>1000</SortOrder>
         <CreateNewFolder>true</CreateNewFolder>

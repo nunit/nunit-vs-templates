@@ -98,7 +98,7 @@
     <None Include="packages.config">
       <SubType>Designer</SubType>
     </None>
-    <Content Include="Packages\pclstorage.1.0.2.nupkg">
+     <Content Include="Packages\pclstorage.1.0.2.nupkg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
@@ -177,10 +177,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-  <TemplateReference Include="nunit.tests.sdkstyle.csharp.csproj">
+    <TemplateReference Include="nunit.tests.sdkstyle.csharp.csproj">
       <PathToProject>../nunit.tests.sdkstyle.csharp/nunit.tests.sdkstyle.csharp.csproj</PathToProject>
     </TemplateReference>
-   <TemplateReference Include="nunit.tests.core.csharp.csproj">
+    <TemplateReference Include="nunit.tests.core.csharp.csproj">
       <PathToProject>../nunit.tests.core.csharp/nunit.tests.core.csharp.csproj</PathToProject>
     </TemplateReference>
     <TemplateReference Include="nunit.tests.csharp.csproj">
