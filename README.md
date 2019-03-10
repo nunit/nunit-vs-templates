@@ -23,7 +23,7 @@ The project currently provides the following templates.
 
 | Template                     | Platform                     | Language     | Project Type         |
 |------------------------------|------------------------------|--------------|----------------------|
-| NUnit 3 Unit Test Project    | Desktop                      | C#           | Traditional Style(3) |
+| NUnit 3 Unit Test Project    | Desktop                      | C#           | Traditional Style <sup>3</sup> |
 | NUnit 3 Unit Test Project    | Desktop                      | C#           | Sdk Style            | 
 | NUnit 3 Unit Test Project    | Desktop .NET Core            | C#           | SDK Style            | 
 | NUnit 3 Unit Test Project    | Desktop                      | Visual Basic | Traditional Style <sup>3</sup> |
