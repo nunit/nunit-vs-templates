@@ -12,9 +12,5 @@
     <!--<TargetFrameworkVersion>v4.0</TargetFrameworkVersion>-->
     <add key="&lt;TargetFrameworkVersion&gt;v4.0&lt;/TargetFrameworkVersion&gt;" 
          value="&lt;TargetFrameworkVersion&gt;v$targetframeworkversion$&lt;/TargetFrameworkVersion&gt;"/>
-  
-
-
-
     </Replacements>
 </Preprocess>

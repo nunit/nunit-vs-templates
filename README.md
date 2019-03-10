@@ -51,7 +51,7 @@ The project currently provides the following templates.
 | Test Fixture    | ntestfixture | C#            | |
 | Test Method     | ntest        | C#            | |
 | Test Case       | ntestcase    | C#            | |
-| Test Case Source | ntestcasesource1    | C#  | Form 1 |
+| Test Case Source | ntestcasesource     | C#  | Form 1 |
 | Test Case Source | ntestcasesource2    | C#  | Form 2 |
 | Test Case Source | ntestcasesource3    | C#  | Form 3 |
 | Test Case Source | ntestcasesource4    | C#  | Form 3 with testdata|
