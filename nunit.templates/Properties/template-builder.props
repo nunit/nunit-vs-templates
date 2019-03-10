@@ -17,6 +17,6 @@
     <!---
     You can set the following property to false to disable creating the template report
     -->
-    <!--<ls-GenerateTemplateReport>false</ls-GenerateTemplateReport>-->
+    <ls-GenerateTemplateReport>false</ls-GenerateTemplateReport>
   </PropertyGroup>
 </Project>
