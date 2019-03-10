@@ -26,7 +26,7 @@ The project currently provides the following templates.
 | NUnit 3 Unit Test Project    | Desktop                      | C#           | Traditional Style(3) |
 | NUnit 3 Unit Test Project    | Desktop                      | C#           | Sdk Style            | 
 | NUnit 3 Unit Test Project    | Desktop .NET Core            | C#           | SDK Style            | 
-| NUnit 3 Unit Test Project    | Desktop                      | Visual Basic | Traditional Style    |
+| NUnit 3 Unit Test Project    | Desktop                      | Visual Basic | Traditional Style <sup>3</sup> |
 | NUnit 3 Unit Test Project    | Xamarin Android <sup>1</sup> | C#           | Traditional Style    |
 | NUnit 3 Unit Test Project    | Xamarin iOS <sup>1</sup>     | C#           | Traditional Style    |
 | NUnit 3 Unit Test Project    | Xamarin UWP <sup>1,2</sup>   | C#           | Traditional Style    |
