@@ -15,7 +15,7 @@
         <TemplateID>bfc23f0c-2c7d-431e-8edf-91879df70e72</TemplateID>
         <!-- Indicates how many parent folders this item template should appear in -->
         <NumberOfParentCategoriesToRollUp>0</NumberOfParentCategoriesToRollUp>
-         <AppliesTo>VisualBasic</AppliesTo>
+        <AppliesTo>VisualBasic</AppliesTo>
     </TemplateData>
     <TemplateContent>
         <Project TargetFileName="NUnit.Tests.vbproj" File="NUnit.Tests.VB.vbproj" ReplaceParameters="true">
