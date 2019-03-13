@@ -98,7 +98,7 @@
     <None Include="packages.config">
       <SubType>Designer</SubType>
     </None>
-     <Content Include="Packages\pclstorage.1.0.2.nupkg">
+    <Content Include="Packages\pclstorage.1.0.2.nupkg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
@@ -111,6 +111,14 @@
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <Content Include="Packages\xamarin.android.support.v4.22.2.1.nupkg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Packages\NUnit.3.11.0.nupkg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Packages\NUnit3TestAdapter.3.13.0.nupkg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
