@@ -1,5 +1,9 @@
 # NUnit Visual Studio Templates
 
+** This project has been archived.  It is a VSIX project, which we don't support anymore.  Use `dotnet new nunit` instead, or install using Visual Studio - New Project dialog, selecting NUnit.**
+
+---------
+
 [![Build status](https://ci.appveyor.com/api/projects/status/lx7icpyp4g0m0223/branch/master?svg=true)](https://ci.appveyor.com/project/CharliePoole/nunit-templates/branch/master)
 
 An extension that adds Project and Item templates to Visual Studio
