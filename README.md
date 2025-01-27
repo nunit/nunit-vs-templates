@@ -1,6 +1,6 @@
 # NUnit Visual Studio Templates
 
-** This project has been archived.  It is a VSIX project, which we don't support anymore.  Use `dotnet new nunit` instead, or install using Visual Studio - New Project dialog, selecting NUnit.**
+**This project has been archived.  It is a VSIX project, which we don't support anymore.  Use `dotnet new nunit` instead, or install using Visual Studio - New Project dialog, selecting NUnit.**
 
 ---------
 
